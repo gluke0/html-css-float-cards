@@ -13,6 +13,7 @@ table{
     border-spacing: 0;
 }
 
+/* clearfix */
 .clearfix::after{
     content: '';
     clear: both;
@@ -46,8 +47,6 @@ p{
 
 .container{
     margin-bottom: 50px;
-   
-
 }
 
 img{
@@ -62,10 +61,13 @@ img{
     color: white;
     width: calc(100% / 3 - 5%);
     float: left;
-    box-shadow: 1px 2px 5px 1px black;
+    box-shadow: 1px 2px 3px 1px black;
     line-height: 1.7rem;
-    margin-right: 5%;
+}
 
+.middle{
+    margin-left: 7.5%;
+    margin-right: 7.5%;
 }
 
 a{
