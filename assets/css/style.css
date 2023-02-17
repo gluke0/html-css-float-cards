@@ -25,7 +25,6 @@ table{
 @import url('https://fonts.googleapis.com/css2?family=Nova+Round&display=swap');
 
 
-
 body{
     width: 80%;
     margin: auto;
@@ -34,8 +33,7 @@ body{
 
 h2{
     text-align: center;
-    margin-top: 3%;
-    margin-bottom: 4%;
+    margin: 4% 0;
     color: rgb(211, 68, 112);
     font-size: 60px;
 }
@@ -49,6 +47,17 @@ p{
     margin-bottom: 50px;
 }
 
+.card{
+    background-color: black;
+    width: calc(100% / 3 - 5%);
+    float: left;
+    box-shadow: 1px 2px 3px 1px black;  
+}
+
+.card:nth-child(even){
+    margin: 0 7.5%;
+ }
+
 img{
     width: 100px;
     height: 100px;
@@ -56,26 +65,17 @@ img{
     float: left;
 }
 
-.card{
-    background-color: black;
-    color: white;
-    width: calc(100% / 3 - 5%);
-    float: left;
-    box-shadow: 1px 2px 3px 1px black;
+img + div{
+    padding: 10px;
     line-height: 1.7rem;
-}
-
-.middle{
-    margin-left: 7.5%;
-    margin-right: 7.5%;
-}
+    color: white;
+ }
 
 a{
     text-decoration: none;
     color: darkcyan;
  }
 
- .team{
-    padding: 10px;
-    height: 100%;
- }
+
+
+
